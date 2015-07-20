@@ -1,4 +1,4 @@
 #!/bin/sh
-
-git status
+git reset --hard HEAD
 git pull
+git status
