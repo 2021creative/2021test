@@ -8,11 +8,12 @@
 	 */
 
 	// The commands
-	$commands = array(
+	/*$commands = array(
 		'echo $PWD',
 		'whoami',
+		'sudo chown root:root',
 		'git reset --hard HEAD',
-		'sudo git pull',
+		'git pull',
 		'git status',
 		'git submodule sync',
 		'git submodule update',
@@ -27,8 +28,9 @@
 		// Output
 		$output .= "<span style=\"color: #6BE234;\">\$</span> <span style=\"color: #729FCF;\">{$command}\n</span>";
 		$output .= htmlentities(trim($tmp)) . "\n";
-	}
-    var_dump(shell_exec('git remote add origin git@github.com:2021creative/2021test.git'));
+	}*/
+	
+    var_dump(shell_exec('sudo chown root:root'.' 2>&1'));
     var_dump(shell_exec('git pull'.' 2>&1')); 
     var_dump(shell_exec('git status')); 
 	// Make it pretty for manual user access (and why not?)
