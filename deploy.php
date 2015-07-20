@@ -11,6 +11,7 @@
 	$commands = array(
 		'echo $PWD',
 		'whoami',
+       // 'git reset --hard HEAD',
 		'git pull',
 		'git status',
 		'git submodule sync',
@@ -28,7 +29,7 @@
 		$output .= htmlentities(trim($tmp)) . "\n";
 	}
 
-    var_dump(shell_exec('git pull'));
+    //var_dump(shell_exec('git pull'));
 	// Make it pretty for manual user access (and why not?)
 ?>
 <!DOCTYPE HTML>
