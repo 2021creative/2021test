@@ -12,7 +12,6 @@
 		'echo $PWD',
 		'whoami',
 		'git reset --hard HEAD',
-		'sudo chown -R bitnami:bitnami /opt/bitnami/apache2/htdocs/2021test/',
 		'sudo git pull',
 		'git status',
 		'git submodule sync',
