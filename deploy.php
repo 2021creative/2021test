@@ -8,10 +8,9 @@
 	 */
 
 	// The commands
-	$commands = array(
+	/*$commands = array(
 		'echo $PWD',
 		'whoami',
-       // 'git reset --hard HEAD',
 		'git pull',
 		'git status',
 		'git submodule sync',
@@ -27,9 +26,10 @@
 		// Output
 		$output .= "<span style=\"color: #6BE234;\">\$</span> <span style=\"color: #729FCF;\">{$command}\n</span>";
 		$output .= htmlentities(trim($tmp)) . "\n";
-	}
-
-    //var_dump(shell_exec('git pull'));
+	}*/
+    var_dump(shell_exec('git remote add origin git@github.com:2021creative/2021test.git'));
+    var_dump(shell_exec('git pull origin master')); 
+    var_dump(shell_exec('git status')); 
 	// Make it pretty for manual user access (and why not?)
 ?>
 <!DOCTYPE HTML>
