@@ -30,7 +30,7 @@
 		$output .= htmlentities(trim($tmp)) . "\n";
 	}*/
 	
-    var_dump(shell_exec('sudo chown -R daemon:daemon'.' 2>&1'));
+    var_dump(shell_exec('sudo chown -R daemon:daemon ./2021test'.' 2>&1'));
 	var_dump(shell_exec('git reset --hard HEAD'.' 2>&1'));
     var_dump(shell_exec('sudo git pull'.' 2>&1')); 
     var_dump(shell_exec('git status')); 
