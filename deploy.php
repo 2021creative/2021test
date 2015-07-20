@@ -34,7 +34,8 @@
 	var_dump(shell_exec('git reset --hard HEAD'.' 2>&1'));
     var_dump(shell_exec('sudo git pull'.' 2>&1')); 
     var_dump(shell_exec('git status')); */
-	echo shell_exec('sh /opt/bitnami/apache2/htdocs/2021test/gitpull.sh');
+	//var_dump(shell_exec('sudo chown -R bitnami:bitnami ./gitpull.sh'.' 2>&1')
+	echo shell_exec('sh /opt/bitnami/apache2/htdocs/2021test/gitpull.sh'.' 2>&1');
 	// Make it pretty for manual user access (and why not?)
 ?>
 <!DOCTYPE HTML>
