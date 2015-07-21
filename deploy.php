@@ -12,6 +12,7 @@
 		'echo $PWD',
 		'whoami',
 		'ssh-keyscan github.com 2>&1',
+		'ssh -T github.com 2>&1',
 		'git reset --hard HEAD 2>&1',
 		'git pull -v 2>&1',
 		'git status',
