@@ -8,10 +8,9 @@
 	 */
 
 	// The commands
-	/*$commands = array(
+	$commands = array(
 		'echo $PWD',
 		'whoami',
-		'sudo chown root:root',
 		'git reset --hard HEAD',
 		'git pull',
 		'git status',
@@ -28,14 +27,14 @@
 		// Output
 		$output .= "<span style=\"color: #6BE234;\">\$</span> <span style=\"color: #729FCF;\">{$command}\n</span>";
 		$output .= htmlentities(trim($tmp)) . "\n";
-	}*/
+	}
 	
     //var_dump(shell_exec('sudo chown -R daemon:daemon ./2021test'.' 2>&1'));
 	/*var_dump(shell_exec('git reset --hard HEAD'.' 2>&1'));
     var_dump(shell_exec('git pull'.' 2>&1')); 
     var_dump(shell_exec('git status')); */
 	/*var_dump(shell_exec('sudo chown bitnami:bitnami /opt/bitnami/apache2/htdocs/2021test/gitpull.sh'.' 2>&1')); */
-	echo shell_exec('sh /opt/bitnami/apache2/htdocs/2021test/gitpull.sh'.' 2>&1');
+	//echo shell_exec('sh /opt/bitnami/apache2/htdocs/2021test/gitpull.sh'.' 2>&1');
 	// Make it pretty for manual user access (and why not?)
 ?>
 <!DOCTYPE HTML>
