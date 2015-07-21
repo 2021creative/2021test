@@ -14,7 +14,7 @@
 		'ssh-keyscan github.com 2>&1',
 		'ssh -vT github.com 2>&1',
 		'git reset --hard HEAD 2>&1',
-		'git pull -v 2>&1',
+		'sudo -u bitnami git pull -v 2>&1',
 		'git status',
 		'git submodule sync',
 		'git submodule update',
