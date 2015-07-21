@@ -11,6 +11,7 @@
 	$commands = array(
 		'echo $PWD',
 		'whoami',
+		'id userid',
 		'git reset --hard HEAD 2>&1',
 		'git pull -v 2>&1',
 		'git status',
