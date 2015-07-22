@@ -78,7 +78,7 @@
  .  ____  .    ____________________________
  |/      \|   |                            |
 [| <span style="color: #FF0000;">&hearts;    &hearts;</span> |]  | Git Deployment Script v0.1 |
- |___==___|  /              &copy; oodavid 2012 | AND | https://gist.github.com/limzykenneth/baef1b190c68970d50e1
+ |___==___|  /              &copy; oodavid 2012 | AND | https://gist.github.com/limzykenneth/baef1b190c68970d50e1 | 2021creative Team | Go Away bots..
               |____________________________|
  
 <?php echo $output; ?>
