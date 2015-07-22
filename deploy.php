@@ -11,14 +11,14 @@
 	$commands = array(
 		'echo $PWD',
 		'whoami',
-		'ssh-keyscan github.com 2>&1',
-		'ssh -vT github.com 2>&1',
+		//'ssh-keyscan github.com 2>&1',
+		//'ssh -vT github.com 2>&1',
 		'git reset --hard HEAD 2>&1',
 		'git pull -v 2>&1',
 		'git status',
-		'git submodule sync',
-		'git submodule update',
-		'git submodule status',
+		//'git submodule sync',
+		//'git submodule update',
+		//'git submodule status',
 	);
 
 	// Run the commands for output
