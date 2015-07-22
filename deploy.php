@@ -35,8 +35,8 @@
 				// Output
 				$output .= "<span style=\"color: #6BE234;\">\$</span> <span style=\"color: #729FCF;\">{$command}\n</span>";
 				$output .= htmlentities(trim($tmp)) . "\n";
-		/*	}
-		}else{
+			}
+		/*}else{
 			header('HTTP/1.1 403 Forbidden');
 			echo "Invalid request.";
 		}*/
