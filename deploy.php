@@ -27,7 +27,7 @@
 	var_dump($signature);
 	var_dump(verify_request());
 	if (strpos($agent,'GitHub-Hookshot') !== false){
-		if (hash_equals($signature, verify_request())){
+		//if (hash_equals($signature, verify_request())){
 			// Run the commands
 			foreach($commands AS $command){
 				// Run it
@@ -35,11 +35,11 @@
 				// Output
 				$output .= "<span style=\"color: #6BE234;\">\$</span> <span style=\"color: #729FCF;\">{$command}\n</span>";
 				$output .= htmlentities(trim($tmp)) . "\n";
-			}
+		/*	}
 		}else{
 			header('HTTP/1.1 403 Forbidden');
 			echo "Invalid request.";
-		}
+		}*/
 	}else{
 		header('HTTP/1.1 403 Forbidden');
 		echo "Invalid request.";
