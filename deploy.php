@@ -23,7 +23,7 @@
 	base64_encode($agent);
 	base64_encode($signature);
 	// Run the commands for output
-	$output = '';
+	$output = ''; var_dump(strpos($agent,'GitHub-Hookshot')); var_dump(hash_equals($signature, verify_request()));
 	if (strpos($agent,'GitHub-Hookshot') !== false){
 		if (hash_equals($signature, verify_request())){
 			// Run the commands
